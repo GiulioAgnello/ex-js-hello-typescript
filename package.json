@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc",
+    "compile:watch": "tsc --watch",
+    "start": "node ./src/index.js",
+    "watch": "node --watch ./src/index.js"
   },
   "keywords": [],
   "author": "",
